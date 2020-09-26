@@ -13,9 +13,11 @@ body {
     margin: 50px auto;
     position: relative;
     width: 100px;
-    -webkit-transition: 2s linear;
+    -webkit-transition: 2s ease-out;
     -webkit-transform-style: preserve-3d;
-    transition: 2s linear;
+    -moz-transition: 2s ease-out;
+    -moz-transform-style: preserve-3d;
+    transition: 2s ease-out;
     transform-style: preserve-3d;
   }
   
@@ -23,4 +25,14 @@ body {
       margin: 50px auto;
       position: relative;
       text-align: center;
+  }
+
+  .awardDiv {
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .display {
+    display: none;
   }

@@ -26,15 +26,24 @@ function GetRandomValue(data) {
     return randomValue;
 }
 
-function Award(coinResult) {
+async function Award(coinResult) {
     GetRandomValue(headAwards);
 
+    const h2Award = document.getElementById('award');    
+    h2Award.classList.remove("display");
+
     switch(coinResult) {
-        case 0:            
-            alert(headAwards[randomValue]);
+        case 0:
+            await sleep(500);                        
+            h2Award.innerHTML = headAwards[randomValue];                                    
             break;
-        case 1:
-            alert("Te cumplimos tu sueño...")
+        case 1:          
+        await sleep(500);  
+            h2Award.innerHTML = "Te cumplimos tu sueño...";                        
             break;
     }
 }
+
+/*function CleanH2Award() {
+
+}*/
