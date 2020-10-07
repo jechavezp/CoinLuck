@@ -1,0 +1,43 @@
+@media(max-width: 1024px) {
+    .main-position {
+        padding-top: 270px;        
+    }
+    
+    .main-cotainer {
+        background-color: #dedcdc;
+        background-image: url("../images/UprightBackGround.jpg");
+        background-repeat: no-repeat;
+        background-size: 722px 1280px;
+        background-position: center;
+        height: 100vh;
+        position: relative;        
+    }    
+    
+    .tablet-position {
+        margin-left: 14%;
+    }
+
+    .amount {
+        label {
+            margin-bottom: 2px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            color: white;
+        }
+    }    
+
+    .main-div-disclaimer {
+        padding-top: 97px;
+        .div-disclaimer {
+            margin-left: 14%;            
+            p {
+                font-family: 'Poppins', sans-serif;
+                font-size: 5.7px;
+                color: white;
+                text-align: justify; 
+            }
+        }
+    }
+        
+}

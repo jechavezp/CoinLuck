@@ -1,0 +1,259 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+.body-style {
+  max-width: 1440px;
+  margin: auto;
+  box-shadow: 5px 10px 18px #888888;
+  border: 1px inset;
+  border-left-style: none;
+  border-top-style: none; }
+
+.grid-system {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%; }
+  .grid-system .col-1 {
+    width: calc(8.33% * 1); }
+  .grid-system .col-2 {
+    width: calc(8.33% * 2); }
+  .grid-system .col-3 {
+    width: calc(8.33% * 3); }
+  .grid-system .col-4 {
+    width: calc(8.33% * 4); }
+  .grid-system .col-5 {
+    width: calc(8.33% * 5); }
+  .grid-system .col-6 {
+    width: calc(8.33% * 6); }
+  .grid-system .col-7 {
+    width: calc(8.33% * 7); }
+  .grid-system .col-8 {
+    width: calc(8.33% * 8); }
+  .grid-system .col-9 {
+    width: calc(8.33% * 9); }
+  .grid-system .col-10 {
+    width: calc(8.33% * 10); }
+  .grid-system .col-11 {
+    width: calc(8.33% * 11); }
+  .grid-system .col-12 {
+    width: calc(8.33% * 12); }
+  @media (max-width: 800px) {
+    .grid-system .col-2 {
+      width: calc(33.33% * 2); }
+    .grid-system .col-4 {
+      width: calc(11.28% * 4); }
+    .grid-system .col-6 {
+      width: calc(11.5% * 6); } }
+  @media (min-width: 1440px) {
+    .grid-system .col-7 {
+      width: calc(10.70% * 7); } }
+
+.unset-padding {
+  padding: 0; }
+
+.main-position {
+  padding-top: 155px; }
+
+.main-cotainer {
+  background-color: #dedcdc;
+  background-image: url("../images/BackGround.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.div-izq-pos {
+  margin-left: 30%; }
+
+input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 167px; }
+
+label {
+  margin-bottom: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: bold; }
+
+.selcity {
+  margin-bottom: 10px; }
+  .selcity select {
+    height: 30px;
+    width: 167px;
+    background-color: white;
+    background-image: url("../images/dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: 145px center;
+    appearance: none;
+    cursor: pointer; }
+
+textarea {
+  width: 86%;
+  height: 210px; }
+
+.div-amount input {
+  width: 125px; }
+
+.div-btn-send {
+  padding-left: 3%;
+  text-align: end; }
+  .div-btn-send .btn-send {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-right: 2px;
+    width: 129px;
+    cursor: pointer; }
+
+.main-div-disclaimer {
+  padding-top: 70px; }
+  .main-div-disclaimer .div-disclaimer {
+    margin-left: 28%; }
+    .main-div-disclaimer .div-disclaimer p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 5.7px;
+      color: white;
+      text-align: justify; }
+
+.no-padding {
+  padding: unset; }
+
+@media (max-width: 1024px) {
+  .main-position {
+    padding-top: 270px; }
+
+  .main-cotainer {
+    background-color: #dedcdc;
+    background-image: url("../images/UprightBackGround.jpg");
+    background-repeat: no-repeat;
+    background-size: 722px 1280px;
+    background-position: center;
+    height: 100vh;
+    position: relative; }
+
+  .tablet-position {
+    margin-left: 14%; }
+
+  .amount label {
+    margin-bottom: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: white; }
+
+  .main-div-disclaimer {
+    padding-top: 97px; }
+    .main-div-disclaimer .div-disclaimer {
+      margin-left: 14%; }
+      .main-div-disclaimer .div-disclaimer p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5.7px;
+        color: white;
+        text-align: justify; } }
+@media (max-width: 1280px) and (orientation: landscape) {
+  .main-position {
+    padding-top: 150px; }
+
+  .main-cotainer {
+    background-image: url("../images/BackGround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative; }
+
+  .main-div-disclaimer {
+    padding-top: 48px; }
+    .main-div-disclaimer .div-disclaimer {
+      margin-left: 28%; }
+      .main-div-disclaimer .div-disclaimer p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5.7px;
+        color: white;
+        text-align: justify; } }
+@media (min-width: 1440px) {
+  .main-position {
+    padding-top: 189px; }
+
+  .main-cotainer {
+    background-color: #dedcdc;
+    background-image: url("../images/BackGround.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative; }
+
+  .div-izq-pos {
+    margin-left: 28%; }
+
+  textarea {
+    width: 100%;
+    height: 210px; }
+
+  .div-btn-send {
+    padding-left: unset; }
+
+  .main-div-disclaimer {
+    padding-top: 113px; }
+    .main-div-disclaimer .div-disclaimer {
+      margin-left: 28%; }
+      .main-div-disclaimer .div-disclaimer p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5.7px;
+        color: white;
+        text-align: justify; } }
+.coin-body-style {
+  background-image: url("../images/BackGroundCoin.jpg");
+  background-repeat: no-repeat;
+  /*max-width: 1440px;    
+  margin: auto;    
+  box-shadow: 5px 10px 18px #888888;
+  border: 1px inset;
+  border-left-style: none;
+  border-top-style: none;*/
+  -webkit-transform: perspective(500px);
+  -webkit-transform-style: preserve-3d;
+  transform: perspective(500px);
+  transform-style: preserve-3d; }
+
+.coin-container {
+  padding: 15% 0 0 6%; }
+
+.coinDiv {
+  background-image: url(../images/head.png);
+  background-size: 100% 100%;
+  border-radius: 100%;
+  height: 200px;
+  margin: 50px auto;
+  position: relative;
+  width: 200px;
+  -webkit-transition: 5s ease-out;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 5s ease-out;
+  -moz-transform-style: preserve-3d;
+  transition: 5s ease-out;
+  transform-style: preserve-3d; }
+
+.awardDiv {
+  margin: 50px auto;
+  position: relative;
+  text-align: center; }
+
+.coin-div-disclaimer .coin-disclaimer {
+  padding: 3% 0 0 28%; }
+  .coin-div-disclaimer .coin-disclaimer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7px;
+    font-weight: bold;
+    color: black;
+    text-align: justify; }
+
+.display {
+  display: none; }
+
+/*# sourceMappingURL=coin_style.css.map */
